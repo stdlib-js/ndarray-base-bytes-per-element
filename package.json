@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-bytes-per-element",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Return the number of bytes per element provided an underlying array data type.",
   "license": "Apache-2.0",
   "author": {
