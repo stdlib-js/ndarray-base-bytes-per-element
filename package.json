@@ -1,0 +1,37 @@
+{
+  "name": "@stdlib/ndarray-base-bytes-per-element",
+  "version": "0.0.0",
+  "description": "Return the number of bytes per element provided an underlying array data type.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/ndarray-base-bytes-per-element.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdtypes",
+    "types",
+    "base",
+    "ndarray",
+    "nbytes",
+    "bytes-per-element",
+    "bytes_per_element",
+    "bytes",
+    "memory",
+    "multidimensional",
+    "array",
+    "utilities",
+    "utility",
+    "utils",
+    "util"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
