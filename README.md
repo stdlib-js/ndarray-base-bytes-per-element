@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import bytesPerElement from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-bytes-per-element@deno/mod.js';
+import bytesPerElement from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-bytes-per-element@v0.1.0-deno/mod.js';
 ```
 
 #### bytesPerElement( dtype )
@@ -95,7 +95,7 @@ var nbytes = bytesPerElement( 'foobar' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import bytesPerElement from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-bytes-per-element@deno/mod.js';
+import bytesPerElement from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-bytes-per-element@v0.1.0-deno/mod.js';
 
 var dtypes;
 var nbytes;
