@@ -1,7 +1,7 @@
 {
   "name": "@stdlib/ndarray-base-bytes-per-element",
   "version": "0.2.2",
-  "description": "Return the number of bytes per element provided an underlying array data type.",
+  "description": "Return the number of bytes per element for a provided underlying ndarray data type.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -39,10 +39,14 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/assert-is-positive-integer": "^0.2.2",
+    "@stdlib/assert-is-string": "^0.2.2",
     "@stdlib/ndarray-dtypes": "^0.3.0",
     "@stdlib/utils-library-manifest": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/dstructs-struct": "github:stdlib-js/dstructs-struct#main",
+    "@stdlib/ndarray-dtype-ctor": "github:stdlib-js/ndarray-dtype-ctor#main",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",

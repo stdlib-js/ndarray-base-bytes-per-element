@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Return the number of bytes per element provided an underlying [array data type][@stdlib/ndarray/dtypes].
+> Return the number of bytes per element for a provided underlying [ndarray data type][@stdlib/ndarray/dtypes].
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -75,7 +75,7 @@ var bytesPerElement = require( '@stdlib/ndarray-base-bytes-per-element' );
 
 #### bytesPerElement( dtype )
 
-Returns the number of bytes per element provided an underlying [array data type][@stdlib/ndarray/dtypes].
+Returns the number of bytes per element for a provided underlying [ndarray data type][@stdlib/ndarray/dtypes].
 
 ```javascript
 var nbytes = bytesPerElement( 'float64' );
@@ -115,11 +115,7 @@ var nbytes = bytesPerElement( 'foobar' );
 ```javascript
 var bytesPerElement = require( '@stdlib/ndarray-base-bytes-per-element' );
 
-var dtypes;
-var nbytes;
-var i;
-
-dtypes = [
+var dtypes = [
     'float64',
     'float32',
     'int8',
@@ -134,6 +130,8 @@ dtypes = [
     'foobar'
 ];
 
+var nbytes;
+var i;
 for ( i = 0; i < dtypes.length; i++ ) {
     nbytes = bytesPerElement( dtypes[ i ] );
     nbytes = ( nbytes ) ? nbytes+' bytes' : 'null';

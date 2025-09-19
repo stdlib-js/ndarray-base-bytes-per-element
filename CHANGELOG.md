@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-09-19)
+
+<section class="features">
+
+### Features
+
+-   [`1908bae`](https://github.com/stdlib-js/stdlib/commit/1908bae6fe4852798ed12f620b59af50f762f2e5) - add support for `struct` and `DataType` dtype values
+
+</section>
+
+<!-- /.features -->
 
 <section class="issues">
 
@@ -24,6 +34,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`1908bae`](https://github.com/stdlib-js/stdlib/commit/1908bae6fe4852798ed12f620b59af50f762f2e5) - **feat:** add support for `struct` and `DataType` dtype values _(by Athan Reines)_
 -   [`a464a60`](https://github.com/stdlib-js/stdlib/commit/a464a60568b819f813aff054ba0c32476192d269) - **chore:** fix EditorConfig lint errors [(#6246)](https://github.com/stdlib-js/stdlib/pull/6246) _(by MANI, Athan Reines)_
 -   [`b6a6575`](https://github.com/stdlib-js/stdlib/commit/b6a657548d4e7beacc37f26e7f49c77ae3ea2f0b) - **chore:** fix EditorConfig lint errors [(#6057)](https://github.com/stdlib-js/stdlib/pull/6057) _(by Kaushikgtm)_
 -   [`2777e4b`](https://github.com/stdlib-js/stdlib/commit/2777e4be161869d09406e3b17947d24c64b47af2) - **bench:** resolve lint errors in benchmarks _(by Athan Reines)_
