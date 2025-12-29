@@ -44,7 +44,8 @@
     "@stdlib/assert-is-string": "^0.2.2",
     "@stdlib/ndarray-base-dtype-enum2str": "^0.2.2",
     "@stdlib/ndarray-dtypes": "^0.3.0",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/dstructs-struct": "github:stdlib-js/dstructs-struct#main",
