@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-bytes-per-element",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Return the number of bytes per element for a provided underlying ndarray data type.",
   "license": "Apache-2.0",
   "author": {
@@ -44,7 +44,7 @@
     "@stdlib/assert-is-string": "^0.2.2",
     "@stdlib/ndarray-base-dtype-enum2str": "^0.2.2",
     "@stdlib/ndarray-dtypes": "^0.3.0",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/dstructs-struct": "github:stdlib-js/dstructs-struct#main",
@@ -88,7 +88,6 @@
     "utils",
     "util"
   ],
-  "__stdlib__": {},
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
